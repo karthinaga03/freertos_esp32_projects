@@ -1,3 +1,0 @@
-Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v5.5.3\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 C:\Users\Karthikeyan\Desktop\freertos_esp32_projects\task_demo_d3\task_demo
-fatal: bad config line 2 in file C:/vs_esp_idf/.espressif/v5.5.3/esp-idf/.git/modules/components/bootloader/subproject/components/micro-ecc/micro-ecc/config
-fatal: bad config line 2 in file C:/vs_esp_idf/.espressif/v5.5.3/esp-idf/.git/modules/components/openthread/openthread/config
