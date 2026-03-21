@@ -10,7 +10,7 @@
 QueueHandle_t xQueue;
 
 // ─────────────────────────────
-// Sender Task — Data அனுப்பும்
+// Sender Task — Data அனுப்பும் //copy
 // ─────────────────────────────
 void sender_task(void *pvParameters)
 {
@@ -26,6 +26,7 @@ void sender_task(void *pvParameters)
         printf("[SENDER]   Sent: %d\n", led_state);
 
         vTaskDelay(pdMS_TO_TICKS(2000));
+        //delay added 2 seconds
     }
 }
 
