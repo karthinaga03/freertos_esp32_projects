@@ -25,7 +25,7 @@ void sender_task(void *pvParameters)
         xQueueSend(xQueue, &led_state, portMAX_DELAY);
         printf("[SENDER]   Sent: %d\n", led_state);
 
-        vTaskDelay(pdMS_TO_TICKS(2000));
+        vTaskDelay(pdMS_TO_TICKS(5000));
         //delay added 2 seconds
     }
 }
